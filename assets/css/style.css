@@ -94,14 +94,14 @@ button:hover {
     background: #3D8C88;
 }
 
-#one {
+.one {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     background: #4aaaa5;
     color: #ffffff;
-    padding: 20px;
     text-align: center;
-    width: 20%;
     float: left;
+    padding: 10px;
+    width: 20%;
     margin: 30px;
 }
 
@@ -109,66 +109,10 @@ button:hover {
     background: #B23D00;
 }
 
-#two {
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
-    background: #4aaaa5;
+.img1 {
+    position: relative;
     color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    width: 20%;
-    float: left;
     margin: 30px;
-}
-
-#two:hover{
-    background: #B23D00;     
-}
-
-#three {
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
-    background: #4aaaa5;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    width: 20%;
-    float: left;
     overflow: auto;
     clear: both;
-    margin: 30px;
-}
-
-#three:hover{
-    background: #B23D00; 
-}
-
-#four {
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
-    background: #4aaaa5;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    width: 20%;
-    float: left;
-    margin: 30px;
-}
-
-#four:hover {
-    background: #B23D00; 
-}
-
-#five {
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
-    background: #4aaaa5;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    width: 20%;
-    float: left;
-    overflow: auto;
-    clear: both;
-    margin: 30px;
-}
-
-#five:hover {
-    background: #B23D00; 
 }
