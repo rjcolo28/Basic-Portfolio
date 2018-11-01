@@ -91,28 +91,28 @@ button {
 }
 
 button:hover {
-    background: #3D8C88;
+    background: #B23D00;
+}
+
+.img1 {
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
 
 .one {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     background: #4aaaa5;
     color: #ffffff;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 305px;
+    width: 15.25%;
     text-align: center;
-    float: left;
-    padding: 10px;
-    width: 20%;
-    margin: 30px;
+    margin-left: 30px;
 }
 
-#one:hover{
+.one:hover{
     background: #B23D00;
-}
-
-.img1 {
-    position: relative;
-    color: #ffffff;
-    margin: 30px;
-    overflow: auto;
-    clear: both;
 }
