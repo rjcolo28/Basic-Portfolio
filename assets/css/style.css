@@ -26,10 +26,11 @@ h1 {
     text-align: center;
     padding: 20px;
     margin-left: 150px;
+    height: 100%;
 }
 
 .nav a:hover {
-    color: rgb(21, 207, 198);
+    color: #5fcec8;
 }
 
 a {
@@ -130,7 +131,7 @@ button {
 }
 
 button:hover {
-    background: rgb(21, 207, 198);
+    background:#5fcec8;
 }
 
 .img1 {
