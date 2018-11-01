@@ -1,10 +1,12 @@
 html, body {
+    margin: 0;
+    padding: 0;
     height: 100%;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
+.page {
+    min-height: 100%;
+    position: relative;
 }
 
 .header {
@@ -69,12 +71,6 @@ p {
     border-color: #B23D00;
     border-width: 0.5px;
     flex: 1 0 auto;
-}
-
-.footer {
-    flex-shrink: 0;
-    border-top: 8px solid #4aaaa5;
-    background-color: #777777;
 }
 
 h2 {
@@ -243,4 +239,13 @@ button:hover {
     padding-right: 5px;
     top: 575px;
     width: 250px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: rgb(73, 73, 73);
+    border-top: 8px solid #4aaaa5;
 }
