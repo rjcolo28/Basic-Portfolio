@@ -6,12 +6,12 @@ html, body {
 
 .page {
     min-height: 100%;
-    position: relative;
+    position: absolute;
 }
 
 .header {
     background: #ffffff;
-    border: 1px solid #eeeeee;
+    border-bottom: 3px solid #B23D00;
     position: fixed;
     top: 0%;
     left: 0%;
@@ -29,7 +29,7 @@ h1 {
 }
 
 .nav a:hover {
-    color: #B23D00;
+    color: rgb(21, 207, 198);
 }
 
 a {
@@ -46,7 +46,13 @@ a {
 
 #portfolio {
     float: right;
-    margin: 50px;
+    border-left: 1px solid #B23D00;
+    border-right: 1px solid #B23D00;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 #about {
@@ -60,7 +66,7 @@ p {
 }
 
 .content {
-    position: fixed;
+    position: relative;
     width: 960px;
     clear: both;
     overflow: auto;
@@ -70,14 +76,25 @@ p {
     border-style: solid;
     border-color: #B23D00;
     border-width: 0.5px;
-    flex: 1 0 auto;
+    min-height: 100%;
+    padding-bottom: 30px;
 }
 
 h2 {
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     color: #4aaaa5;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 30px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    width: 95%;
+    border: 0;
+    border-top: 1px solid #FF5700;
+    margin-bottom: 20px;
 }
 
 #headshot {
@@ -115,7 +132,7 @@ button {
 }
 
 button:hover {
-    background: #B23D00;
+    background: rgb(21, 207, 198);
 }
 
 .img1 {
@@ -237,14 +254,14 @@ button:hover {
     position: absolute;
     padding-left: 5px;
     padding-right: 5px;
-    top: 575px;
+    top: 560px;
     width: 250px;
 }
 
 .footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 200%;
     height: 50px;
     background: rgb(73, 73, 73);
     border-top: 8px solid #4aaaa5;
