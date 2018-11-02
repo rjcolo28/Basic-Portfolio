@@ -4,6 +4,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    background-image: url('../images/new_year_background/new_year_background.png')
+}
+
 .page {
     min-height: 100%;
     position: absolute;
@@ -16,6 +20,7 @@ html, body {
     top: 0%;
     left: 0%;
     right: 0%;
+    z-index: +1;
 }
 
 h1 {
@@ -36,7 +41,7 @@ a {
 }
 
 .nav a:hover {
-    color: #5fcec8;
+    color: #16DBD1;
 }
 
 #contact {
@@ -76,7 +81,6 @@ p {
     left: 100px;
     min-height: 100%;
     padding-bottom: 30px;
-    z-index: -1;
     border: 1px solid #eeeeee;
 }
 
@@ -131,7 +135,7 @@ button {
 }
 
 button:hover {
-    background: #5fcec8;
+    background: #16DBD1;
 }
 
 .img1 {
