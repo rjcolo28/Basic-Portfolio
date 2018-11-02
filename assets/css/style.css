@@ -29,14 +29,14 @@ h1 {
     height: 100%;
 }
 
-.nav a:hover {
-    color: #5fcec8;
-}
-
 a {
     color: #777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-decoration: none;
+}
+
+.nav a:hover {
+    color: #5fcec8;
 }
 
 #contact {
@@ -131,7 +131,7 @@ button {
 }
 
 button:hover {
-    background:#5fcec8;
+    background: red;
 }
 
 .img1 {
